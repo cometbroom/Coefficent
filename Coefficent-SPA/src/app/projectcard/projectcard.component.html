@@ -1,0 +1,45 @@
+<div class="card">
+  <h1>{{project.teamsize}}</h1>
+  <div class="card-header">
+    <img src="{{project.icon}}" class="img-fluid" alt="" id="projectIcon">
+    <div class="content">
+      <h4 id="category">
+        {{project.category}}
+      </h4>
+      <p id="creator">
+        {{project.creator}}
+      </p>
+    </div>
+  </div>
+  <div class="card-body">
+      <h5 id="title" class="card-title">
+        {{project.title}}
+      </h5>
+      <p id="description" class="card-text overflow-auto">
+        {{project.description}}
+      </p>
+      <div class="features row">
+        <div class="col-6 mt-3">
+          <span class="dark-green icon"><img src="assets/img/group.png"
+              class="img-fluid" alt=""></span>
+          <span id="tsize" class="number">
+            {{project.teamsize}}</span> <span class="">Persons</span>
+        </div>
+        <div class="col-6 mt-3">
+          <span class="icon light-orange"><img src="assets/img/briefcase.png"
+              alt=""></span>
+          <span id="contractlen" class="description">
+            {{project.contractlen}}</span>
+        </div>
+        <div class="col-6 mt-3">
+          <span class="icon black"><img src="assets/img/time.png" alt=""></span> <span
+            id="cdate" class="number">
+            {{project.cdate}} </span>
+        </div>
+      </div>
+  </div>
+  <div class="card-footer text-center">
+      <a href="" class="btn dark-green">Join</a>
+  </div>
+  </div>
+  

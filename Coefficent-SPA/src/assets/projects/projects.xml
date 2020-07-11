@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<profiles>
+ <profile>
+  <category>Jazz</category>
+  <creator>Jan van Bergen</creator>
+  <title>Jazz Re-Harmonization</title>
+  <description>We are looking for talented data scientist who is good at mathmetics</description>
+  <tsize>10</tsize>
+  <contractlen>long</contractlen>
+  <cdate>4</cdate>
+ </profile>
+ <profile>
+  <category>Acoustic/Electric Guitar</category>
+  <creator>Wendy Testaburger</creator>
+  <title>Guitar in the style of Beatles</title>
+  <description>We are looking for talented software enginner who is good at desktop application</description>
+  <tsize>4</tsize>
+  <contractlen>short</contractlen>
+  <cdate>48</cdate>
+ </profile>
+</profiles>

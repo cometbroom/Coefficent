@@ -1,0 +1,299 @@
+/* You can add global styles to this file, and also import other style files */
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import '../node_modules/font-awesome/css/font-awesome.min.css';
+@import '../node_modules/alertifyjs//build/css/alertify.min.css';
+@import '../node_modules/alertifyjs/build/css/themes/bootstrap.min.css';
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body{
+    font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+/*COLORS PALETTE*/
+.dark-green{
+    background: #116466;
+}
+.light-green{
+    background: #D1E8E2;
+}
+.light-orange{
+    background: #FFCB9A;
+}
+.dark-orange{
+    background:#D9B08C;
+}
+.black{
+    background: #000;
+}
+.dark-grey{
+    background: #2C3531;
+}
+/*NAVBAR*/
+.navbar{
+    padding: 0 1rem;
+}
+.navbar-brand{
+    margin-right: 0;
+}
+.navbar .row{
+    width: 100%;
+}
+.navbar .navbar-brand img{
+    width: 80%;
+}
+.navbar .nav-link{
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 5px 25px!important;
+}
+.nav-link a {
+    text-decoration: none;
+    color: #fff;
+}
+.nav-link a:hover {
+    text-decoration: none;
+    color:rgb(221, 221, 221);
+}
+.navbar .light-green .nav-link{
+    color: #000;   
+}
+.navbar .light-orange:hover{
+    background: #D9B08C;
+}
+.navbar .light-green:hover {
+    background: #116466;
+}
+.navbar .light-green:hover .nav-link{
+    color: #fff;
+}
+.projectmobile{
+    display: none;
+}
+/*HERO*/
+.hero{
+    background-image: url('./assets/img/herobg.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position:  center;
+    height: 176px;
+}
+.hero .jumbotron{
+    background: none;
+    padding: 2rem 1rem;
+}
+.hero h1{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #fff;
+}
+.hero p{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #fff;
+}
+.hero .form-control{
+    font-family: 'Helvetica', FontAwesome, sans-serif;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+    position: absolute;
+    bottom: 0;
+}
+.hero .form-control:focus{
+    box-shadow: none;
+    border-color: #116466
+}
+/*MAIN*/
+main{
+    max-width: 1440px;
+    margin:auto
+}
+.table .title{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
+/*FORM CATEGORY*/
+.searching form label{
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 25px;
+}
+.searching .form-control{
+    border: none;
+    border-bottom: 1px solid #000;
+    border-radius: 0;
+}
+.searching .form-control:focus{
+    box-shadow: none;
+}
+.searching .btn{
+    width: 100%;
+}
+.searching .btn.dark-green{
+    color: #fff;
+}
+/*RESULTS CARDS*/
+.results .card{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    height: 100%;
+}
+.results .card-header{
+    display: flex;
+    background: none;
+    border-bottom: none;    
+}
+.results .card-header img{
+    width: 50px;
+    height: 50px;
+    align-self: center
+}
+.results .card-header .content{
+    align-self: center;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.results .card-header .content h4{
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+}
+.results .card-header .content p{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+}
+.results .card-body{
+    padding-top: 0;
+}
+.results .card-body .card-title{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+}
+.results .card-body .icon{
+    border-radius: 2px;   
+    padding: 4px; 
+    font-size: 14px;
+    line-height: 16px;
+}
+.results .card-body .dark-green.icon{
+    box-shadow: -5px 5px 4px rgba(17, 100, 102, 0.25);
+}
+.results .card-body .yellow.icon{
+    box-shadow: -5px 5px 4px rgba(217, 176, 140, 0.25);
+}
+.results .card-body .black.icon{
+    box-shadow: -5px 5px 4px rgba(44, 53, 49, 0.25);
+}
+.results .card-body .number{
+    padding-left: 6px;
+}
+.results .card-body .description{
+    padding-left: 8px;
+}
+.card-text {
+    height: 70px;
+}
+.results .card-footer{
+    background: none;
+}
+.results .card-footer .btn{
+    width: 100%;
+    color: #fff;
+}
+@media (max-width:1400px){
+    .hero{
+        background-size: cover;
+    }
+}
+@media (max-width:1280px){
+    .navbar .nav-link{
+        padding: 5px 17px!important;
+        font-size: 14px;
+    }
+    .results .card-body .description{
+        padding-left: 2px;
+    }
+    .results .card-body .number{
+        padding-left: 2px;
+    }
+}
+@media (max-width:1024px){
+    .results .card-body span{
+        font-size: .6rem;
+    }
+}
+@media (max-width:992px){
+    .navbar .navbar-brand img{
+        width: 100%;
+    }
+    .brandcontainer{
+        display: flex;
+        justify-content: space-between
+    }
+    .hamburger-inner, .hamburger-inner:after, .hamburger-inner:before{
+        background: #fff!important;
+    }
+    .hamburger:focus{
+        outline: none;
+    }
+    .projectdesk{
+        display: none;
+    }
+    .projectmobile{
+        display: block;
+        margin-top: 5px;
+    }
+    .navbar-collapse{
+        text-align: center;
+    }
+    .navbar .light-green{
+        width: 20%;
+    }
+    .navbar .light-orange{
+        width: 20%;
+    }
+    .results .card-body span{
+        font-size: 1rem;
+    }
+}
+@media (max-width:768px){
+    .navbar-collapse .navbar-nav{
+        padding-bottom: 20px;
+    }
+    .navbar .light-green{
+        width: 50%;
+    }
+    .navbar .light-orange{
+        width: 50%;
+    }
+    .results .card-body span{
+        font-size: .6rem;
+    }
+    .hero{
+        height: 100%;
+    }
+    .hero p{
+        padding-bottom: 10px!important;
+    } 
+    .hero .form-control {
+        position: static
+    }
+}
+@media (max-width:414px){
+    .results .card-body span{
+        font-size: 1rem;
+    }
+    .brandcontainer{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

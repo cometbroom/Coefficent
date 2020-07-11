@@ -1,0 +1,63 @@
+{
+	"projects": [{
+			"projectIcon": "assets/img/graphic.png",
+			"category": "Jazz",
+			"creator": "Jan van Bergen",
+			"title": "Jazz Re-Harmonization",
+			"description": "We are looking for talented data scientist who is good at mathmetics",
+			"tsize": 10,
+			"contractlen": "long",
+			"cdate": 4
+		},
+		{
+			"projectIcon": "assets/img/software.png",
+			"category": "Acoustic/Electric Guitar",
+			"creator": "Wendy Testaburger",
+			"title": "Guitar in the style of Beatles",
+			"description": "We are looking for talented software enginner who is good at desktop application",
+			"tsize": 10,
+			"contractlen": "long",
+			"cdate": 24
+		},
+		{
+			"projectIcon": "assets/img/software.png",
+			"category": "Acoustic/Electric Guitar",
+			"creator": "Wendy Testaburger",
+			"title": "Guitar in the style of Beatles",
+			"description": "We are looking for talented software enginner who is good at desktop application",
+			"tsize": 10,
+			"contractlen": "long",
+			"cdate": 24
+		},
+		{
+			"projectIcon": "assets/img/software.png",
+			"category": "Acoustic/Electric Guitar",
+			"creator": "Wendy Testaburger",
+			"title": "Guitar in the style of Beatles",
+			"description": "We are looking for talented software enginner who is good at desktop application",
+			"tsize": 10,
+			"contractlen": "long",
+			"cdate": 24
+		},
+		{
+			"projectIcon": "assets/img/software.png",
+			"category": "Acoustic/Electric Guitar",
+			"creator": "Wendy Testaburger",
+			"title": "Guitar in the style of Beatles",
+			"description": "We are looking for talented software enginner who is good at desktop application",
+			"tsize": 10,
+			"contractlen": "long",
+			"cdate": 24
+		},
+		{
+			"projectIcon": "assets/img/software.png",
+			"category": "Acoustic/Electric Guitar",
+			"creator": "Wendy Testaburger",
+			"title": "Guitar in the style of Beatles",
+			"description": "We are looking for talented software enginner who is good at desktop application",
+			"tsize": 10,
+			"contractlen": "long",
+			"cdate": 53
+		}
+	]
+}

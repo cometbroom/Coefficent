@@ -1,0 +1,6 @@
+<h3 class="title">All Results: <span>66</span> Results found</h3>
+<div class="row mt-5 results" repeat="6" id="card1">
+  <div *ngFor="let project of projects" class="col-md-4 mt-3">
+    <app-projectcard [project]="project"></app-projectcard>
+  </div>
+</div>

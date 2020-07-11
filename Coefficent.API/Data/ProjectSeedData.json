@@ -1,0 +1,62 @@
+[
+	{
+		"Icon": "assets/img/graphic.png",
+		"Category": "Jazz",
+		"Creator": "Jan van Bergen",
+		"Title": "Jazz Re-Harmonization",
+		"Description": "We are looking for talented data scientist who is good at mathmetics",
+		"TeamSize": 10,
+		"ContractLen": "long",
+		"CDate": 4
+	},
+	{
+		"Icon": "assets/img/software.png",
+		"Category": "Acoustic/Electric Guitar",
+		"Creator": "Wendy Testaburger",
+		"Title": "Guitar in the style of Beatles",
+		"Description": "We are looking for talented software enginner who is good at desktop application",
+		"TeamSize": 10,
+		"ContractLen": "long",
+		"CDate": 24
+	},
+	{
+		"Icon": "assets/img/software.png",
+		"Category": "Acoustic/Electric Guitar",
+		"Creator": "Wendy Testaburger",
+		"Title": "Guitar in the style of Beatles",
+		"Description": "We are looking for talented software enginner who is good at desktop application",
+		"TeamSize": 10,
+		"ContractLen": "long",
+		"CDate": 24
+	},
+	{
+		"Icon": "assets/img/software.png",
+		"Category": "Acoustic/Electric Guitar",
+		"Creator": "Wendy Testaburger",
+		"Title": "Guitar in the style of Beatles",
+		"Description": "We are looking for talented software enginner who is good at desktop application",
+		"TeamSize": 10,
+		"ContractLen": "long",
+		"CDate": 24
+	},
+	{
+		"Icon": "assets/img/software.png",
+		"Category": "Acoustic/Electric Guitar",
+		"Creator": "Wendy Testaburger",
+		"Title": "Guitar in the style of Beatles",
+		"Description": "We are looking for talented software enginner who is good at desktop application",
+		"TeamSize": 10,
+		"ContractLen": "long",
+		"CDate": 24
+	},
+	{
+		"Icon": "assets/img/software.png",
+		"Category": "Acoustic/Electric Guitar",
+		"Creator": "Wendy Testaburger",
+		"Title": "Guitar in the style of Beatles",
+		"Description": "We are looking for talented software enginner who is good at desktop application",
+		"TeamSize": 10,
+		"ContractLen": "long",
+		"CDate": 53
+	}
+]
