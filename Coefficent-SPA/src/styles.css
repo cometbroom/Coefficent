@@ -29,6 +29,11 @@ body{
 .dark-grey{
     background: #2C3531;
 }
+/*Additional*/
+.small-link {
+    text-decoration: none;
+    cursor: pointer;
+}
 /*NAVBAR*/
 .navbar{
     padding: 0 1rem;

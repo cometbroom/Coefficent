@@ -61,14 +61,25 @@
           </li>
           <li class="nav-item light-green align-self-center">
             <a *ngIf="!this.auth.loggedIn()" class="nav-link" (click)="loginP()">Log in</a>
-            <a 
-            *ngIf="this.auth.loggedIn()" 
-            class="nav-link"
-            [routerLink]="['/profile']"
-            routerLinkActive="active"
-            >
-            Welcome 
-            {{this.user.username}}</a>
+
+            <span *ngIf="this.auth.loggedIn()" class="dropdown" dropdown>
+              <a class="dropdown-toggle nav-link" dropdownToggle>
+                Welcome {{this.user.username | titlecase}}
+              </a>
+        
+              <div class="dropdown-menu mt-3" *dropdownMenu>
+                <a class="dropdown-item fa fa-user"
+                [routerLink]="['/profile']"
+                routerLinkActive="active"    
+                >
+                <a class="dropdown-link">Profile</a>  
+                </a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item fa fa-sign-out" (click)="logout()">
+                  <a class="dropdown-link">Logout</a> 
+                </a>
+              </div>
+            </span>        
           </li>
           <li class="nav-item light-orange align-self-center projectmobile">
             <a class="nav-link" href="addProject.html">Add Project</a>

@@ -3,6 +3,7 @@ import { AuthService } from '../_services/auth.service';
 import { AlertifyService } from '../_services/alertify.service';
 import { Router } from '@angular/router';
 import { UserService } from '../_services/user.service';
+import { User } from '../_models/user';
 
 @Component({
   selector: 'app-login',
@@ -11,6 +12,8 @@ import { UserService } from '../_services/user.service';
 })
 export class LoginComponent implements OnInit {
   model: any = {};
+  signup: boolean = false;
+  
 
   @Output() emitCancel = new EventEmitter();
 
@@ -40,15 +43,13 @@ export class LoginComponent implements OnInit {
     );
   }
 
+
+
+
   loggedIn() {
     return this.authService.loggedIn();
   }
 
-  logout() {
-    localStorage.removeItem('token');
-    this.alertify.success('Logged out...');
-    this.router.navigate(['/']);
-  }
 
 
   ngOnInit() {

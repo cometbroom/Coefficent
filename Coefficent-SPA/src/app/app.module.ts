@@ -3,6 +3,10 @@ import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { FormsModule } from "@angular/forms";
 
+import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+
 
 import { AppComponent } from './app.component';
 import { ProjectcardComponent } from './projectcard/projectcard.component';
@@ -23,6 +27,7 @@ import { appRoutes } from './routes';
 import { HomeComponent } from './home/home.component';
 import { UserService } from './_services/user.service';
 import { StartComponent } from './start/start.component';
+import { RegisterComponent } from "./login/register/register.component";
 
 @NgModule({
    declarations: [
@@ -41,12 +46,15 @@ import { StartComponent } from './start/start.component';
       ContactComponent,
       ProfileComponent,
       HomeComponent,
-      StartComponent
+      StartComponent,
+      RegisterComponent
    ],
    imports: [
       BrowserModule,
       HttpClientModule,
       FormsModule,
+      BsDropdownModule.forRoot(),
+      BrowserAnimationsModule,
       RouterModule.forRoot(appRoutes)
    ],
    providers: [

@@ -1,0 +1,42 @@
+
+<div class="login-page">
+  <div class="form">
+    <div>
+      <i (click)="totalCancel()" class="fa fa-window-close fa-2x float-right exit-btton" aria-hidden="true"></i>
+    </div>
+    <div class="form-inner">
+      <form 
+      #loginForm="ngForm" 
+      class="login-form"
+      (ngSubmit)="register()"
+      >
+        <input 
+        type="text" 
+        placeholder="E-mail" 
+        name="username"
+        required
+        [(ngModel)]="model.username"
+        />
+        <input 
+        type="password" 
+        placeholder="Password" 
+        name="password"
+        required
+        [(ngModel)]="model.password"
+        />
+        <input 
+        type="password" 
+        placeholder="Confirm Password" 
+        name="passwordconfirm"
+        required
+        [(ngModel)]="this.confirmPass"
+        />
+        <button [disabled]="!loginForm.valid" type="submit">Sign up!</button>
+        <p class="message">Already a user? 
+          <a class="small-link" (click)="cancel()">Login</a>
+        </p>
+      </form>            
+    </div>
+  </div>
+</div>
+
