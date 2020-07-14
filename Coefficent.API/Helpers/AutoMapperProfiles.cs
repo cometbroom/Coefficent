@@ -8,7 +8,8 @@ namespace Coefficent.API.Helpers
     {
         public AutoMapperProfiles()
         {
-            CreateMap<Project, ProjectForListDto>();          
+            CreateMap<Project, ProjectForListDto>();
+            CreateMap<User, UserInfoDto>();  
         }
     }
 }

@@ -1,0 +1,38 @@
+<div class="login-page">
+  <div class="form">
+    <div>
+      <i (click)="cancel()" class="fa fa-window-close fa-2x float-right exit-btton" aria-hidden="true"></i>
+    </div>
+    <div class="form-inner">
+      <form class="register-form">
+        <input type="text" placeholder="name"/>
+        <input type="password" placeholder="password"/>
+        <input type="text" placeholder="email address"/>
+        <button>create</button>
+        <p class="message">Already registered? <a href="#">Sign In</a></p>
+      </form>
+      <form 
+      #loginForm="ngForm" 
+      class="login-form"
+      (ngSubmit)="login()"
+      >
+        <input 
+        type="text" 
+        placeholder="Username" 
+        name="username"
+        required
+        [(ngModel)]="model.username"
+        />
+        <input 
+        type="password" 
+        placeholder="password" 
+        name="password"
+        required
+        [(ngModel)]="model.password"
+        />
+        <button [disabled]="!loginForm.valid" type="submit">login</button>
+        <p class="message">Not registered? <a href="#">Create an account</a></p>
+      </form>
+      </div>
+  </div>
+</div>

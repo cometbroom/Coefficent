@@ -1,0 +1,17 @@
+@keyframes opacity-ani {
+	from {opacity: 1}
+	to 	{opacity: 0.3;}
+}
+
+.login-nav {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	transform: translate(0%, -50%);
+}
+
+.rest-page {
+	opacity: 0.3;
+	animation-name: opacity-ani;
+	animation-duration: 1s;
+}

@@ -1,0 +1,12 @@
+
+<div [ngClass]="{'rest-page': !showPage}">
+	<app-navbar (loginPressed)="showPage = !showPage"></app-navbar>
+	<router-outlet></router-outlet>
+</div>
+<div class="login-nav" *ngIf="!showPage">
+	<app-login (emitCancel)="showPage = true"></app-login>
+</div>
+
+<div>
+	<button (click)="giveme()">press dis</button>
+</div>
